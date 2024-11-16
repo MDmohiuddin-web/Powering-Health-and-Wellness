@@ -24,15 +24,15 @@ const Hero = () => {
                     <img src={lee} alt=""  className="absolute top-[20%] -left-10"/>
 
 
-                    <div className=" absolute bottom-2 left-2 bg-white bg-opacity-80 w-[97%] mx-auto   rounded-2xl">
-                        <div className="justify-center flex items-center gap-3 p-5">
+                    <div className=" absolute bottom-2 left-1 right-1 bg-white bg-opacity-80 w-[97%] mx-auto  rounded-2xl">
+                        <div className="justify-center flex items-center gap-3 md:p-5 p-2">
                             <h2 className="text-2xl  md:text-3xl lg:text-6xl font-bold">12,000+</h2>
                             <h3 className=" md:text-3xl lg:text-6xl text-gray-400 rounded-lg">|</h3>
-                            <h4 className="  lg:text-2xl ">Happy learners rely on us regularly</h4>
+                            <h4 className="  lg:text-2xl text-xs md:text-sm ">Happy learners rely on us regularly</h4>
                         </div>
                         <div className="bg-white p-3 rounded-lg flex justify-between items-center gap-5">
-                            <h4 className="text-nowrap">Find your wellbeing</h4>
-                            <p className="text-sm text-gray-400">By prioritizing self-care and making informed choices, one can enhance their overall quality of life</p>
+                            <h4 className="md:text-nowrap">Find your wellbeing</h4>
+                            <p className="text-xs  md:text-sm  text-gray-400">By prioritizing self-care and making informed choices, one can enhance their overall quality of life</p>
                         </div>
 
 

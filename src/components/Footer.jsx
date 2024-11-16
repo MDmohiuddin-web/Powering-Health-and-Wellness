@@ -13,7 +13,7 @@ const Footer = () => {
                             <div  className="min-w-44">
                                 <p className="font-medium text-gray-900">Services</p>
 
-                                <ul className="mt-6 space-y-4 text-sm">
+                                <ul className="mt-6 space-y-4 text-xs">
                                     <li>
                                         <a href="#" className="text-gray-700 transition hover:opacity-75"> 1on1 Coaching </a>
                                     </li>
@@ -39,7 +39,7 @@ const Footer = () => {
                             <div  className="min-w-44">
                                 <p className="font-medium text-gray-900">Company</p>
 
-                                <ul className="mt-6 space-y-4 text-sm">
+                                <ul className="mt-6 space-y-4 text-xs">
                                     <li>
                                         <a href="#" className="text-gray-700 transition hover:opacity-75"> About </a>
                                     </li>
@@ -57,7 +57,7 @@ const Footer = () => {
                             <div  className="min-w-44">
                                 <p className="font-medium text-gray-900">Helpful Links</p>
 
-                                <ul className="mt-6 space-y-4 text-sm">
+                                <ul className="mt-6 space-y-4 text-xs">
                                     <li>
                                         <a href="#" className="text-gray-700 transition hover:opacity-75"> Contact </a>
                                     </li>
@@ -75,7 +75,7 @@ const Footer = () => {
                             <div className="min-w-44">
                                 <p className="font-medium text-gray-900">Legal</p>
 
-                                <ul className="mt-6 space-y-4 text-sm">
+                                <ul className="mt-6 space-y-4 text-xs">
                                     <li>
                                         <a href="#" className="text-gray-700 transition hover:opacity-75"> Accessibility </a>
                                     </li>
