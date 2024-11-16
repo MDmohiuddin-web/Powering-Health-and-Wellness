@@ -6,11 +6,11 @@ const Footer = () => {
 
             <footer className=" mx-auto bg-secondary">
                 <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8 ">
-                    <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 mx-auto  ">
+                    <div className="flex flex-wrap justify-start    ">
 
 
-                        <div className=" grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4 ">
-                            <div>
+                        <div className="flex justify-between gap-5 flex-wrap md:gap-32">
+                            <div  className="min-w-44">
                                 <p className="font-medium text-gray-900">Services</p>
 
                                 <ul className="mt-6 space-y-4 text-sm">
@@ -36,7 +36,7 @@ const Footer = () => {
                                 </ul>
                             </div>
 
-                            <div>
+                            <div  className="min-w-44">
                                 <p className="font-medium text-gray-900">Company</p>
 
                                 <ul className="mt-6 space-y-4 text-sm">
@@ -54,7 +54,7 @@ const Footer = () => {
                                 </ul>
                             </div>
 
-                            <div>
+                            <div  className="min-w-44">
                                 <p className="font-medium text-gray-900">Helpful Links</p>
 
                                 <ul className="mt-6 space-y-4 text-sm">
@@ -70,9 +70,9 @@ const Footer = () => {
                                         <a href="#" className="text-gray-700 transition hover:opacity-75"> Live Chat </a>
                                     </li>
                                 </ul>
-                            </div>
+                            </div >
 
-                            <div>
+                            <div className="min-w-44">
                                 <p className="font-medium text-gray-900">Legal</p>
 
                                 <ul className="mt-6 space-y-4 text-sm">
@@ -95,7 +95,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex justify-between items-center">
+                    <div className="flex justify-between items-center ">
                         <p className="font-medium text-gray-900">Join our official channels</p>
                         <ul className="mt-8 flex gap-6">
                             <li>

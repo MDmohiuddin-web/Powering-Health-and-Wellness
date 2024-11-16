@@ -10,8 +10,8 @@ const Navbar = () => {
             <details>
                 <summary>Courses</summary>
                 <ul className="p-2">
-                    <li><a>Submenu 1</a></li>
-                    <li><a>Submenu 2</a></li>
+                    <li><a>Submenu</a></li>
+                    <li><a>Submenu</a></li>
                 </ul>
             </details>
     </li>
@@ -20,8 +20,8 @@ const Navbar = () => {
             <details>
                 <summary>Instructors</summary>
                 <ul className="p-2">
-                    <li><a>Submenu 1</a></li>
-                    <li><a>Submenu 2</a></li>
+                    <li><a>Submenu</a></li>
+                    <li><a>Submenu</a></li>
                 </ul>
             </details>
     </li>
@@ -30,8 +30,8 @@ const Navbar = () => {
             <details>
                 <summary>Blogs</summary>
                 <ul className="p-2">
-                    <li><a>Submenu 1</a></li>
-                    <li><a>Submenu 2</a></li>
+                    <li><a>Submenu</a></li>
+                    <li><a>Submenu</a></li>
                 </ul>
             </details>
     </li>
@@ -63,14 +63,14 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[10] mt-3 w-52 p-2 shadow ">
                             {links}
                         </ul>
                     </div>
-                    <Link className=" text-xl">Logo</Link>
+                    <Link className=" text-xl" to={'/'}>Logo</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                    <ul className="menu menu-horizontal px-1 z-[10]">
                         {links}
 
                     </ul>

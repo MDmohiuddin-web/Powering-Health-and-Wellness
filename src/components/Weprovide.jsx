@@ -1,15 +1,16 @@
 import im from "../assets/widthkids.png"
 import im2 from "../assets/tik.svg"
+import bage from '../assets/batch.svg' 
 
 const Weprovide = () => {
     return (
        
-            <div className=" flex md:w-4/5 m-auto md:py-10 gap-5 flex-wrap">
+            <div className=" flex md:w-4/5 m-auto md:py-10 gap-5 flex-wrap px-10 md:px-0">
                 {/* for text */}
                 <div className="md:w-[48%] space-y-7 flex flex-col justify-center ">
                     <h2 className="md:text-6xl font-bold text-4xl ">We provide...</h2>
                     {/* starting faq */}
-                    <div className="flow-root">
+                    <div className="flow-root w-[90%] ">
 
                         <div className="-my-8 divide-y divide-gray-200">
                             {/* 1 */}
@@ -81,6 +82,7 @@ const Weprovide = () => {
                 </div>
                 {/* for img */}
                 <div className="md:w-[48%] relative ">
+                <img src={bage} alt=""  className="absolute top-[20%] -left-10"/>
 
 
                     <img src={im} alt="" className="rounded-2xl" />

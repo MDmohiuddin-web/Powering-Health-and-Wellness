@@ -1,12 +1,13 @@
 
 import im from "../assets/im.png"
+import lee from "../assets/lefe.svg"
 const Hero = () => {
     return (
-        <div className="bg-secondary w-full ">
+        <div className="bg-secondary w-full px-10 md:px-0">
             <div className="flex md:w-4/5 m-auto  flex-wrap gap-5">
                 {/* for text */}
                 <div className="md:w-[48%] space-y-7 flex flex-col justify-center ">
-                    <h2 className=" md:text-3xl lg:text-6xl font-bold  text-2xl">#1 Platform Powering Health and Wellness</h2>
+                    <h2 className=" text-3xl lg:text-6xl font-bold  ">#1 Platform Powering Health and Wellness</h2>
                     <h4 className=" md:text-3xl lg:text-3xl text-2xl">We’re restoring home as the primary place of personal well-being</h4>
                     <p className=" md:text-3xl lg:text-2xl text-gray-500">Health is not just about what youre eating. Its also about what youre thinking and saying</p>
                     <div className="flex gap-4 ">
@@ -20,6 +21,7 @@ const Hero = () => {
 
 
                     <img src={im} alt="" className="rounded-2xl" />
+                    <img src={lee} alt=""  className="absolute top-[20%] -left-10"/>
 
 
                     <div className=" absolute bottom-2 left-2 bg-white bg-opacity-80 w-[97%] mx-auto   rounded-2xl">
